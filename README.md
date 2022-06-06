@@ -10,22 +10,22 @@ that allows you to  :
 
 # Prerequities :
 Install :
-# Docker and Docker compose in your local machine.
-# Postman
+ - Docker and Docker compose in your local machine.
+ - Postman to test the API
 
-## To run the project, type: 
+ To run the project, type: 
 docker-compose up, then type : localhost:8080/villes
 
-## Examples : 
+# Examples : 
 
-# To get all villes : 
+* To get all villes : 
  localhost:8080/villes 
  
-# To get a ville by id : choose a number 
+* To get a ville by id : choose a number 
 localhost:8080/1 
 
-# To insert a new ville :
-# with POST Http request 
+* To insert a new ville :
+* with POST Http request 
     {
         "id": ,
         "nom": "",
@@ -35,7 +35,7 @@ localhost:8080/1
         "direction2": ""
     }
 
-## To calculate the distance: 
+* To calculate the distance: 
 type:  localhost:8080/ville1/ville 2 
 localhost:8080/Alger/Annaba
 

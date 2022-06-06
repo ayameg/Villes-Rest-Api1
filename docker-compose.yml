@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  mysqldb:
+    image: mysql:5.6
+    restart: unless-stopped
+    hostname: mysqldb
+    environment:
+       MYSQL_DATABASE : hb_student_tracker
+       MYSQL_ROOT_PASSWORD : hbstudent
+       MYSQL_USER : hbstudent
+       MYSQL_PASSWORD: hbstudent
+  app:
+    depends_on:
+      - mysqldb
+    build: ./
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    restart: always 
+    environment: 
+         SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/hb_student_tracker?useSSL=false
+         SPRING_DATASOURCE_USERNAME: hbstudent
+         SPRING_DATASOURCE_PASSWORD: hbstudent
+    links:
+    - mysqldb:mysqldb
+     
+      
+     
+    

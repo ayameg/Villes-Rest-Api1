@@ -8,6 +8,9 @@ that allows you to  :
    - Calculate distance between 2 towns (villes) by giving their names
    - Search town(Ville) by ID
    - Search (Ville) by Name 
+   - 
+ Ville is an entity that has : an id, name, longitude, latitude, direction1 and direction 2
+ Alger (1, "Alger", 64212.325, -985422, "N", "E")
 
 # Prerequities :
 Install :

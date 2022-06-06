@@ -1,8 +1,8 @@
 # Villes-Rest-Api1
 
-# Description : Is a REST API developed with : SPRING BOOT, SPRING MVC, SPRING DATA, Maven, MySQL
+Context and description : The project is a REST API developed with : SPRING BOOT, SPRING MVC, SPRING DATA, Maven, MySQL
 that allows you to  : 
-   - display List of towns(Villes)
+   - display a list of towns(Villes)
    - Insert a new town (ville)
    - Calculate distance between 2 towns (villes) by giving their names
    - Search town(Ville) by ID

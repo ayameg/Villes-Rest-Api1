@@ -1,6 +1,7 @@
 # Villes-Rest-Api1
 
-Context and description : The project is a REST API developed with : SPRING BOOT, SPRING MVC, SPRING DATA, Maven, MySQL
+# Context and description : 
+The project is a REST API developed with : SPRING BOOT, SPRING MVC, SPRING DATA, Maven, MySQL
 that allows you to  : 
    - display a list of towns(Villes)
    - Insert a new town (ville)

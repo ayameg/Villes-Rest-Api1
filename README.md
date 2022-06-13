@@ -18,7 +18,7 @@ Install :
  - Postman to test the API
 
  To run the project, type: 
-docker-compose up, then type : localhost:8080/villes
+docker-compose up, then type : localhost:8089/villes
 
 # Examples : 
 
@@ -26,7 +26,7 @@ docker-compose up, then type : localhost:8080/villes
  localhost:8080/villes 
  
 * To get a ville by id : choose a number 
-localhost:8080/1 
+localhost:8080/villes/1 
 
 * To insert a new ville :
 * with POST Http request 
@@ -41,6 +41,6 @@ localhost:8080/1
 
 * To calculate the distance: 
 type:  localhost:8080/ville1/ville 2 
-localhost:8080/Alger/Annaba
+localhost:8089/villes/Alger/Annaba
 
 
